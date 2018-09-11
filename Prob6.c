@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int sumSquareDiff() {
-  int sumSquares = 0; //sum of squares
+  int sumSquares = 0; //sum of the squares
   int sum = 0;
   for(int i = 1; i <= 100; i++) {
     sum += i;

@@ -19,7 +19,7 @@ int mult35() {
     mult5 += 5;
   }
 
-  //sum of multiples of 3 and 5, minus overlapping multiples (of 15)
+  //sum of multiples of 3 and 5, minus the overlapping multiples (of 15)
   while (multBoth < 1000) {
     sum -= multBoth;
     multBoth += 15;
